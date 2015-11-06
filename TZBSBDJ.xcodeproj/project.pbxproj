@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2220B9DB1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */; settings = {ASSET_TAGS = (); }; };
+		2220B9DE1BEC90B300BAB33E /* UITabBarItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9DD1BEC90B300BAB33E /* UITabBarItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		2220B9E11BECC39A00BAB33E /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9E01BECC39A00BAB33E /* TZNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		2220B9E41BECC57000BAB33E /* TZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9E31BECC57000BAB33E /* TZTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FF981BEC680D00CFA50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FF971BEC680D00CFA50D /* main.m */; };
 		22D2FFA31BEC680D00CFA50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D2FFA21BEC680D00CFA50D /* Assets.xcassets */; };
 		22D2FFA61BEC680D00CFA50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */; };
 		22D2FFB11BEC680D00CFA50D /* TZBSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFB01BEC680D00CFA50D /* TZBSBDJTests.m */; };
 		22D2FFBC1BEC680D00CFA50D /* TZBSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFBB1BEC680D00CFA50D /* TZBSBDJUITests.m */; };
 		22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFCA1BEC685900CFA50D /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		22D2FFDE1BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */; settings = {ASSET_TAGS = (); }; };
-		22D2FFE41BEC68B600CFA50D /* TZTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */; settings = {ASSET_TAGS = (); }; };
 		71422969D7717259F27036A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89106F8673132821E2CE291 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2220B9D91BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TZCoordinateExtension.h"; sourceTree = "<group>"; };
+		2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZCoordinateExtension.m"; sourceTree = "<group>"; };
+		2220B9DC1BEC90B300BAB33E /* UITabBarItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+TZExtension.h"; sourceTree = "<group>"; };
+		2220B9DD1BEC90B300BAB33E /* UITabBarItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+TZExtension.m"; sourceTree = "<group>"; };
+		2220B9DF1BECC39A00BAB33E /* TZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNavigationController.h; sourceTree = "<group>"; };
+		2220B9E01BECC39A00BAB33E /* TZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNavigationController.m; sourceTree = "<group>"; };
+		2220B9E21BECC57000BAB33E /* TZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTabBar.h; sourceTree = "<group>"; };
+		2220B9E31BECC57000BAB33E /* TZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTabBar.m; sourceTree = "<group>"; };
 		22D2FF931BEC680D00CFA50D /* TZBSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZBSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2FF971BEC680D00CFA50D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22D2FFA21BEC680D00CFA50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,20 +64,16 @@
 		22D2FFBD1BEC680D00CFA50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22D2FFC91BEC685900CFA50D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22D2FFCA1BEC685900CFA50D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22D2FFD01BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+setUpTheTabBarItem.h"; sourceTree = "<group>"; };
-		22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+setUpTheTabBarItem.m"; sourceTree = "<group>"; };
-		22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZEssenceViewController.h; sourceTree = "<group>"; };
-		22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZEssenceViewController.m; sourceTree = "<group>"; };
-		22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZFriendTrendsViewController.h; sourceTree = "<group>"; };
-		22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZFriendTrendsViewController.m; sourceTree = "<group>"; };
-		22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainTabBarController.h; sourceTree = "<group>"; };
-		22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainTabBarController.m; sourceTree = "<group>"; };
-		22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMeViewController.h; sourceTree = "<group>"; };
-		22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMeViewController.m; sourceTree = "<group>"; };
-		22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNewViewController.h; sourceTree = "<group>"; };
-		22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNewViewController.m; sourceTree = "<group>"; };
-		22D2FFDC1BEC68B600CFA50D /* TZTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTabBarViewModel.h; sourceTree = "<group>"; };
-		22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTabBarViewModel.m; sourceTree = "<group>"; };
+		22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZEssenceViewController.h; path = "../../untitled folder/TZEssenceViewController.h"; sourceTree = "<group>"; };
+		22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZEssenceViewController.m; path = "../../untitled folder/TZEssenceViewController.m"; sourceTree = "<group>"; };
+		22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZFriendTrendsViewController.h; path = "../../untitled folder/TZFriendTrendsViewController.h"; sourceTree = "<group>"; };
+		22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZFriendTrendsViewController.m; path = "../../untitled folder/TZFriendTrendsViewController.m"; sourceTree = "<group>"; };
+		22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZMainTabBarController.h; path = "../../untitled folder/TZMainTabBarController.h"; sourceTree = "<group>"; };
+		22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZMainTabBarController.m; path = "../../untitled folder/TZMainTabBarController.m"; sourceTree = "<group>"; };
+		22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZMeViewController.h; path = "../../untitled folder/TZMeViewController.h"; sourceTree = "<group>"; };
+		22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZMeViewController.m; path = "../../untitled folder/TZMeViewController.m"; sourceTree = "<group>"; };
+		22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZNewViewController.h; path = "../../untitled folder/TZNewViewController.h"; sourceTree = "<group>"; };
+		22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZNewViewController.m; path = "../../untitled folder/TZNewViewController.m"; sourceTree = "<group>"; };
 		22D2FFE51BEC693B00CFA50D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A89106F8673132821E2CE291 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E113289F80E29FA07857F4A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +106,187 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2220B9BD1BEC890A00BAB33E /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9BE1BEC890A00BAB33E /* Controller */,
+				2220B9BF1BEC890A00BAB33E /* Model */,
+				2220B9C01BEC890A00BAB33E /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		2220B9BE1BEC890A00BAB33E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */,
+				22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2220B9BF1BEC890A00BAB33E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2220B9C01BEC890A00BAB33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2220B9C51BEC890A00BAB33E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9C61BEC890A00BAB33E /* Controller */,
+				2220B9C71BEC890A00BAB33E /* Model */,
+				2220B9C81BEC890A00BAB33E /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2220B9C61BEC890A00BAB33E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */,
+				22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2220B9C71BEC890A00BAB33E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2220B9C81BEC890A00BAB33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2220B9C91BEC890A00BAB33E /* New */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9CA1BEC890A00BAB33E /* Controller */,
+				2220B9CB1BEC890A00BAB33E /* Model */,
+				2220B9CC1BEC890A00BAB33E /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		2220B9CA1BEC890A00BAB33E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */,
+				22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2220B9CB1BEC890A00BAB33E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2220B9CC1BEC890A00BAB33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2220B9CD1BEC890A00BAB33E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9D11BEC892600BAB33E /* Model */,
+				2220B9CE1BEC890A00BAB33E /* Category */,
+				2220B9CF1BEC890A00BAB33E /* Controller */,
+				2220B9D01BEC890A00BAB33E /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2220B9CE1BEC890A00BAB33E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9DC1BEC90B300BAB33E /* UITabBarItem+TZExtension.h */,
+				2220B9DD1BEC90B300BAB33E /* UITabBarItem+TZExtension.m */,
+				2220B9D91BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.h */,
+				2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2220B9CF1BEC890A00BAB33E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */,
+				22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */,
+				2220B9DF1BECC39A00BAB33E /* TZNavigationController.h */,
+				2220B9E01BECC39A00BAB33E /* TZNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2220B9D01BEC890A00BAB33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9E21BECC57000BAB33E /* TZTabBar.h */,
+				2220B9E31BECC57000BAB33E /* TZTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2220B9D11BEC892600BAB33E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2220B9D21BEC899C00BAB33E /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				2220B9D31BEC899C00BAB33E /* Controller */,
+				2220B9D41BEC899C00BAB33E /* Model */,
+				2220B9D51BEC899C00BAB33E /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		2220B9D31BEC899C00BAB33E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */,
+				22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2220B9D41BEC899C00BAB33E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2220B9D51BEC899C00BAB33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		22D2FF8A1BEC680D00CFA50D = {
 			isa = PBXGroup;
 			children = (
@@ -125,11 +312,11 @@
 		22D2FF951BEC680D00CFA50D /* TZBSBDJ */ = {
 			isa = PBXGroup;
 			children = (
-				22D2FFC91BEC685900CFA50D /* AppDelegate.h */,
-				22D2FFCA1BEC685900CFA50D /* AppDelegate.m */,
-				22D2FFA21BEC680D00CFA50D /* Assets.xcassets */,
-				22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */,
-				22D2FFA71BEC680D00CFA50D /* Info.plist */,
+				2220B9D21BEC899C00BAB33E /* Follow */,
+				2220B9BD1BEC890A00BAB33E /* Essence */,
+				2220B9C51BEC890A00BAB33E /* Me */,
+				2220B9C91BEC890A00BAB33E /* New */,
+				2220B9CD1BEC890A00BAB33E /* Other */,
 				22D2FF961BEC680D00CFA50D /* Supporting Files */,
 			);
 			path = TZBSBDJ;
@@ -138,7 +325,11 @@
 		22D2FF961BEC680D00CFA50D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22D2FFCF1BEC68B600CFA50D /* untitled folder */,
+				22D2FFC91BEC685900CFA50D /* AppDelegate.h */,
+				22D2FFCA1BEC685900CFA50D /* AppDelegate.m */,
+				22D2FFA21BEC680D00CFA50D /* Assets.xcassets */,
+				22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */,
+				22D2FFA71BEC680D00CFA50D /* Info.plist */,
 				22D2FFE51BEC693B00CFA50D /* PrefixHeader.pch */,
 				22D2FF971BEC680D00CFA50D /* main.m */,
 			);
@@ -161,27 +352,6 @@
 				22D2FFBD1BEC680D00CFA50D /* Info.plist */,
 			);
 			path = TZBSBDJUITests;
-			sourceTree = "<group>";
-		};
-		22D2FFCF1BEC68B600CFA50D /* untitled folder */ = {
-			isa = PBXGroup;
-			children = (
-				22D2FFD01BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.h */,
-				22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */,
-				22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */,
-				22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */,
-				22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */,
-				22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */,
-				22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */,
-				22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */,
-				22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */,
-				22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */,
-				22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */,
-				22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */,
-				22D2FFDC1BEC68B600CFA50D /* TZTabBarViewModel.h */,
-				22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */,
-			);
-			path = "untitled folder";
 			sourceTree = "<group>";
 		};
 		95F0D63105469C76E0F52518 /* Pods */ = {
@@ -266,6 +436,7 @@
 		22D2FF8B1BEC680D00CFA50D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TZ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Tim.Z;
 				TargetAttributes = {
@@ -381,13 +552,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D2FFDE1BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m in Sources */,
+				2220B9DE1BEC90B300BAB33E /* UITabBarItem+TZExtension.m in Sources */,
+				2220B9E41BECC57000BAB33E /* TZTabBar.m in Sources */,
 				22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */,
+				2220B9DB1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m in Sources */,
 				22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */,
 				22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */,
 				22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */,
-				22D2FFE41BEC68B600CFA50D /* TZTabBarViewModel.m in Sources */,
 				22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */,
+				2220B9E11BECC39A00BAB33E /* TZNavigationController.m in Sources */,
 				22D2FF981BEC680D00CFA50D /* main.m in Sources */,
 				22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */,
 			);
