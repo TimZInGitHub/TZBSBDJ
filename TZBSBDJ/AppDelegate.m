@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TZMainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+        // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    self.window.rootViewController = [[TZMainTabBarController alloc] init];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

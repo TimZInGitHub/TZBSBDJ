@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		22D2FF981BEC680D00CFA50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FF971BEC680D00CFA50D /* main.m */; };
-		22D2FF9B1BEC680D00CFA50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FF9A1BEC680D00CFA50D /* AppDelegate.m */; };
-		22D2FF9E1BEC680D00CFA50D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FF9D1BEC680D00CFA50D /* ViewController.m */; };
-		22D2FFA11BEC680D00CFA50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2FF9F1BEC680D00CFA50D /* Main.storyboard */; };
 		22D2FFA31BEC680D00CFA50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D2FFA21BEC680D00CFA50D /* Assets.xcassets */; };
 		22D2FFA61BEC680D00CFA50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */; };
 		22D2FFB11BEC680D00CFA50D /* TZBSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFB01BEC680D00CFA50D /* TZBSBDJTests.m */; };
 		22D2FFBC1BEC680D00CFA50D /* TZBSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFBB1BEC680D00CFA50D /* TZBSBDJUITests.m */; };
+		22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFCA1BEC685900CFA50D /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFDE1BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE41BEC68B600CFA50D /* TZTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		71422969D7717259F27036A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89106F8673132821E2CE291 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +43,6 @@
 /* Begin PBXFileReference section */
 		22D2FF931BEC680D00CFA50D /* TZBSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZBSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2FF971BEC680D00CFA50D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22D2FF991BEC680D00CFA50D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		22D2FF9A1BEC680D00CFA50D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22D2FF9C1BEC680D00CFA50D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22D2FF9D1BEC680D00CFA50D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		22D2FFA01BEC680D00CFA50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D2FFA21BEC680D00CFA50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D2FFA51BEC680D00CFA50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D2FFA71BEC680D00CFA50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,26 @@
 		22D2FFB71BEC680D00CFA50D /* TZBSBDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZBSBDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2FFBB1BEC680D00CFA50D /* TZBSBDJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZBSBDJUITests.m; sourceTree = "<group>"; };
 		22D2FFBD1BEC680D00CFA50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D2FFC91BEC685900CFA50D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22D2FFCA1BEC685900CFA50D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22D2FFD01BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+setUpTheTabBarItem.h"; sourceTree = "<group>"; };
+		22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+setUpTheTabBarItem.m"; sourceTree = "<group>"; };
+		22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZEssenceViewController.h; sourceTree = "<group>"; };
+		22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZEssenceViewController.m; sourceTree = "<group>"; };
+		22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZFriendTrendsViewController.h; sourceTree = "<group>"; };
+		22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZFriendTrendsViewController.m; sourceTree = "<group>"; };
+		22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainTabBarController.h; sourceTree = "<group>"; };
+		22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainTabBarController.m; sourceTree = "<group>"; };
+		22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMeViewController.h; sourceTree = "<group>"; };
+		22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMeViewController.m; sourceTree = "<group>"; };
+		22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNewViewController.h; sourceTree = "<group>"; };
+		22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNewViewController.m; sourceTree = "<group>"; };
+		22D2FFDC1BEC68B600CFA50D /* TZTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTabBarViewModel.h; sourceTree = "<group>"; };
+		22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTabBarViewModel.m; sourceTree = "<group>"; };
+		22D2FFE51BEC693B00CFA50D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A89106F8673132821E2CE291 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113289F80E29FA07857F4A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FF3181E9B6AB11B218F4E932 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71422969D7717259F27036A9 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				22D2FFAF1BEC680D00CFA50D /* TZBSBDJTests */,
 				22D2FFBA1BEC680D00CFA50D /* TZBSBDJUITests */,
 				22D2FF941BEC680D00CFA50D /* Products */,
+				95F0D63105469C76E0F52518 /* Pods */,
+				A31E1CA8C6453CE2EDD037EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +125,8 @@
 		22D2FF951BEC680D00CFA50D /* TZBSBDJ */ = {
 			isa = PBXGroup;
 			children = (
-				22D2FF991BEC680D00CFA50D /* AppDelegate.h */,
-				22D2FF9A1BEC680D00CFA50D /* AppDelegate.m */,
-				22D2FF9C1BEC680D00CFA50D /* ViewController.h */,
-				22D2FF9D1BEC680D00CFA50D /* ViewController.m */,
-				22D2FF9F1BEC680D00CFA50D /* Main.storyboard */,
+				22D2FFC91BEC685900CFA50D /* AppDelegate.h */,
+				22D2FFCA1BEC685900CFA50D /* AppDelegate.m */,
 				22D2FFA21BEC680D00CFA50D /* Assets.xcassets */,
 				22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */,
 				22D2FFA71BEC680D00CFA50D /* Info.plist */,
@@ -117,6 +138,8 @@
 		22D2FF961BEC680D00CFA50D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22D2FFCF1BEC68B600CFA50D /* untitled folder */,
+				22D2FFE51BEC693B00CFA50D /* PrefixHeader.pch */,
 				22D2FF971BEC680D00CFA50D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +163,44 @@
 			path = TZBSBDJUITests;
 			sourceTree = "<group>";
 		};
+		22D2FFCF1BEC68B600CFA50D /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+				22D2FFD01BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.h */,
+				22D2FFD11BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m */,
+				22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */,
+				22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */,
+				22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */,
+				22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */,
+				22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */,
+				22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */,
+				22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */,
+				22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */,
+				22D2FFDA1BEC68B600CFA50D /* TZNewViewController.h */,
+				22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */,
+				22D2FFDC1BEC68B600CFA50D /* TZTabBarViewModel.h */,
+				22D2FFDD1BEC68B600CFA50D /* TZTabBarViewModel.m */,
+			);
+			path = "untitled folder";
+			sourceTree = "<group>";
+		};
+		95F0D63105469C76E0F52518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF3181E9B6AB11B218F4E932 /* Pods.debug.xcconfig */,
+				E113289F80E29FA07857F4A8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A31E1CA8C6453CE2EDD037EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A89106F8673132821E2CE291 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D2FFC01BEC680D00CFA50D /* Build configuration list for PBXNativeTarget "TZBSBDJ" */;
 			buildPhases = (
+				302E16EEA8B6050050F92E2F /* Check Pods Manifest.lock */,
 				22D2FF8F1BEC680D00CFA50D /* Sources */,
 				22D2FF901BEC680D00CFA50D /* Frameworks */,
 				22D2FF911BEC680D00CFA50D /* Resources */,
+				A3F842183A71342132DA53DD /* Embed Pods Frameworks */,
+				9877D998D1239ED8896E206B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +309,6 @@
 			files = (
 				22D2FFA61BEC680D00CFA50D /* LaunchScreen.storyboard in Resources */,
 				22D2FFA31BEC680D00CFA50D /* Assets.xcassets in Resources */,
-				22D2FFA11BEC680D00CFA50D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +328,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		302E16EEA8B6050050F92E2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9877D998D1239ED8896E206B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F842183A71342132DA53DD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22D2FF8F1BEC680D00CFA50D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D2FF9E1BEC680D00CFA50D /* ViewController.m in Sources */,
-				22D2FF9B1BEC680D00CFA50D /* AppDelegate.m in Sources */,
+				22D2FFDE1BEC68B600CFA50D /* NSObject+setUpTheTabBarItem.m in Sources */,
+				22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */,
+				22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */,
+				22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */,
+				22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */,
+				22D2FFE41BEC68B600CFA50D /* TZTabBarViewModel.m in Sources */,
+				22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */,
 				22D2FF981BEC680D00CFA50D /* main.m in Sources */,
+				22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22D2FF9F1BEC680D00CFA50D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22D2FFA01BEC680D00CFA50D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22D2FFA41BEC680D00CFA50D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,8 +520,11 @@
 		};
 		22D2FFC11BEC680D00CFA50D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3181E9B6AB11B218F4E932 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TZBSBDJ/PrefixHeader.pch";
 				INFOPLIST_FILE = TZBSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;
@@ -422,8 +534,11 @@
 		};
 		22D2FFC21BEC680D00CFA50D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E113289F80E29FA07857F4A8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TZBSBDJ/PrefixHeader.pch";
 				INFOPLIST_FILE = TZBSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;
@@ -498,6 +613,7 @@
 				22D2FFC21BEC680D00CFA50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22D2FFC31BEC680D00CFA50D /* Build configuration list for PBXNativeTarget "TZBSBDJTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +622,7 @@
 				22D2FFC51BEC680D00CFA50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22D2FFC61BEC680D00CFA50D /* Build configuration list for PBXNativeTarget "TZBSBDJUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +631,7 @@
 				22D2FFC81BEC680D00CFA50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
