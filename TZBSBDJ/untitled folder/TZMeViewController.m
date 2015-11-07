@@ -7,6 +7,7 @@
 //
 
 #import "TZMeViewController.h"
+#import "TZSettingViewController.h"
 
 @interface TZMeViewController ()
 
@@ -17,11 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.view.backgroundColor = TZCommonBackgroundColor;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.tzTitle(@"Me").tzRightBarButtonItems(@[[UIBarButtonItem tz_initWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)],[UIBarButtonItem tz_initWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)]]);
+}
+
+- (void)settingClick
+{
+    TZFUNC
+    
+    TZSettingViewController *settingVC = [[TZSettingViewController alloc] init];
+    [self.navigationController pushViewController:settingVC animated:YES];
+}
+
+- (void)moonClick
+{
+    TZFUNC
 }
 
 

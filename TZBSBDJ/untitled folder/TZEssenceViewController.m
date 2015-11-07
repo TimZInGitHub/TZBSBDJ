@@ -7,6 +7,8 @@
 //
 
 #import "TZEssenceViewController.h"
+#import "UINavigationItem+TZExtension.h"
+#include "UIBarButtonItem+TZExtension.h"
 
 
 
@@ -16,6 +18,13 @@
 {
     [super viewDidLoad];
     
+    self.view.backgroundColor = TZCommonBackgroundColor;
+    
+    self.navigationItem.tzTitleView([[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]]).tzLeftBarButtonItem([UIBarButtonItem tz_initWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)]);
+}
+
+- (void)tagClick{
+    TZFUNC
 }
 
 @end

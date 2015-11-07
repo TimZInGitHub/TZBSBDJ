@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221A09711BED9CBB007853D6 /* UINavigationItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221A09701BED9CBB007853D6 /* UINavigationItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221A09741BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221A09731BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221A09791BEDC4BC007853D6 /* TZRecommendFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221A09781BEDC4BC007853D6 /* TZRecommendFollowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		221A097C1BEDC990007853D6 /* TZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221A097B1BEDC990007853D6 /* TZSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2220B9DB1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */; settings = {ASSET_TAGS = (); }; };
 		2220B9DE1BEC90B300BAB33E /* UITabBarItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9DD1BEC90B300BAB33E /* UITabBarItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
 		2220B9E11BECC39A00BAB33E /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B9E01BECC39A00BAB33E /* TZNavigationController.m */; settings = {ASSET_TAGS = (); }; };
@@ -18,7 +22,7 @@
 		22D2FFBC1BEC680D00CFA50D /* TZBSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFBB1BEC680D00CFA50D /* TZBSBDJUITests.m */; };
 		22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFCA1BEC685900CFA50D /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
-		22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		22D2FFE01BEC68B600CFA50D /* TZFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD51BEC68B600CFA50D /* TZFollowViewController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FFDB1BEC68B600CFA50D /* TZNewViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -43,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221A096F1BED9CBB007853D6 /* UINavigationItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TZExtension.h"; sourceTree = "<group>"; };
+		221A09701BED9CBB007853D6 /* UINavigationItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TZExtension.m"; sourceTree = "<group>"; };
+		221A09721BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TZExtension.h"; sourceTree = "<group>"; };
+		221A09731BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TZExtension.m"; sourceTree = "<group>"; };
+		221A09771BEDC4BC007853D6 /* TZRecommendFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZRecommendFollowViewController.h; sourceTree = "<group>"; };
+		221A09781BEDC4BC007853D6 /* TZRecommendFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZRecommendFollowViewController.m; sourceTree = "<group>"; };
+		221A097A1BEDC990007853D6 /* TZSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZSettingViewController.h; sourceTree = "<group>"; };
+		221A097B1BEDC990007853D6 /* TZSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZSettingViewController.m; sourceTree = "<group>"; };
 		2220B9D91BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TZCoordinateExtension.h"; sourceTree = "<group>"; };
 		2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZCoordinateExtension.m"; sourceTree = "<group>"; };
 		2220B9DC1BEC90B300BAB33E /* UITabBarItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+TZExtension.h"; sourceTree = "<group>"; };
@@ -66,8 +78,8 @@
 		22D2FFCA1BEC685900CFA50D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZEssenceViewController.h; path = "../../untitled folder/TZEssenceViewController.h"; sourceTree = "<group>"; };
 		22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZEssenceViewController.m; path = "../../untitled folder/TZEssenceViewController.m"; sourceTree = "<group>"; };
-		22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZFriendTrendsViewController.h; path = "../../untitled folder/TZFriendTrendsViewController.h"; sourceTree = "<group>"; };
-		22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZFriendTrendsViewController.m; path = "../../untitled folder/TZFriendTrendsViewController.m"; sourceTree = "<group>"; };
+		22D2FFD41BEC68B600CFA50D /* TZFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZFollowViewController.h; path = "../../untitled folder/TZFollowViewController.h"; sourceTree = "<group>"; };
+		22D2FFD51BEC68B600CFA50D /* TZFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZFollowViewController.m; path = "../../untitled folder/TZFollowViewController.m"; sourceTree = "<group>"; };
 		22D2FFD61BEC68B600CFA50D /* TZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZMainTabBarController.h; path = "../../untitled folder/TZMainTabBarController.h"; sourceTree = "<group>"; };
 		22D2FFD71BEC68B600CFA50D /* TZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZMainTabBarController.m; path = "../../untitled folder/TZMainTabBarController.m"; sourceTree = "<group>"; };
 		22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZMeViewController.h; path = "../../untitled folder/TZMeViewController.h"; sourceTree = "<group>"; };
@@ -106,6 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221A09751BEDAA4F007853D6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		2220B9BD1BEC890A00BAB33E /* Essence */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +173,8 @@
 			children = (
 				22D2FFD81BEC68B600CFA50D /* TZMeViewController.h */,
 				22D2FFD91BEC68B600CFA50D /* TZMeViewController.m */,
+				221A097A1BEDC990007853D6 /* TZSettingViewController.h */,
+				221A097B1BEDC990007853D6 /* TZSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +244,10 @@
 				2220B9DD1BEC90B300BAB33E /* UITabBarItem+TZExtension.m */,
 				2220B9D91BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.h */,
 				2220B9DA1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m */,
+				221A096F1BED9CBB007853D6 /* UINavigationItem+TZExtension.h */,
+				221A09701BED9CBB007853D6 /* UINavigationItem+TZExtension.m */,
+				221A09721BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.h */,
+				221A09731BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -267,8 +292,10 @@
 		2220B9D31BEC899C00BAB33E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				22D2FFD41BEC68B600CFA50D /* TZFriendTrendsViewController.h */,
-				22D2FFD51BEC68B600CFA50D /* TZFriendTrendsViewController.m */,
+				22D2FFD41BEC68B600CFA50D /* TZFollowViewController.h */,
+				22D2FFD51BEC68B600CFA50D /* TZFollowViewController.m */,
+				221A09771BEDC4BC007853D6 /* TZRecommendFollowViewController.h */,
+				221A09781BEDC4BC007853D6 /* TZRecommendFollowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,10 +339,10 @@
 		22D2FF951BEC680D00CFA50D /* TZBSBDJ */ = {
 			isa = PBXGroup;
 			children = (
-				2220B9D21BEC899C00BAB33E /* Follow */,
 				2220B9BD1BEC890A00BAB33E /* Essence */,
-				2220B9C51BEC890A00BAB33E /* Me */,
 				2220B9C91BEC890A00BAB33E /* New */,
+				2220B9D21BEC899C00BAB33E /* Follow */,
+				2220B9C51BEC890A00BAB33E /* Me */,
 				2220B9CD1BEC890A00BAB33E /* Other */,
 				22D2FF961BEC680D00CFA50D /* Supporting Files */,
 			);
@@ -325,6 +352,7 @@
 		22D2FF961BEC680D00CFA50D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				221A09751BEDAA4F007853D6 /* New Group */,
 				22D2FFC91BEC685900CFA50D /* AppDelegate.h */,
 				22D2FFCA1BEC685900CFA50D /* AppDelegate.m */,
 				22D2FFA21BEC680D00CFA50D /* Assets.xcassets */,
@@ -552,17 +580,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221A09711BED9CBB007853D6 /* UINavigationItem+TZExtension.m in Sources */,
 				2220B9DE1BEC90B300BAB33E /* UITabBarItem+TZExtension.m in Sources */,
 				2220B9E41BECC57000BAB33E /* TZTabBar.m in Sources */,
 				22D2FFE11BEC68B600CFA50D /* TZMainTabBarController.m in Sources */,
+				221A09791BEDC4BC007853D6 /* TZRecommendFollowViewController.m in Sources */,
+				221A097C1BEDC990007853D6 /* TZSettingViewController.m in Sources */,
 				2220B9DB1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m in Sources */,
 				22D2FFDF1BEC68B600CFA50D /* TZEssenceViewController.m in Sources */,
 				22D2FFCD1BEC685900CFA50D /* AppDelegate.m in Sources */,
-				22D2FFE01BEC68B600CFA50D /* TZFriendTrendsViewController.m in Sources */,
+				22D2FFE01BEC68B600CFA50D /* TZFollowViewController.m in Sources */,
 				22D2FFE21BEC68B600CFA50D /* TZMeViewController.m in Sources */,
 				2220B9E11BECC39A00BAB33E /* TZNavigationController.m in Sources */,
 				22D2FF981BEC680D00CFA50D /* main.m in Sources */,
 				22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */,
+				221A09741BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +734,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -716,6 +749,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

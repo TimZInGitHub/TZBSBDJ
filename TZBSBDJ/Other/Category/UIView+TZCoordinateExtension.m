@@ -67,21 +67,21 @@
 
 #pragma mark - setter
 
-- (void)settz_width:(CGFloat)tz_width
+- (void)setTz_width:(CGFloat)tz_width
 {
     CGRect frame = self.frame;
     frame.size.width = tz_width;
     self.frame = frame;
 }
 
-- (void)settz_height:(CGFloat)tz_height
+- (void)setTz_height:(CGFloat)tz_height
 {
     CGRect frame = self.frame;
     frame.size.height = tz_height;
     self.frame = frame;
 }
 
-- (void)settz_x:(CGFloat)tz_x
+- (void)setTz_x:(CGFloat)tz_x
 {
     CGRect frame = self.frame;
     frame.origin.x = tz_x;
@@ -89,7 +89,7 @@
 }
 
 
-- (void)settz_y:(CGFloat)tz_y
+- (void)setTz_y:(CGFloat)tz_y
 {
     CGRect frame = self.frame;
     frame.origin.y = tz_y;
@@ -97,7 +97,7 @@
 }
 
 
-- (void)settz_centerX:(CGFloat)tz_centerX
+- (void)setTz_centerX:(CGFloat)tz_centerX
 {
     CGPoint center = self.center;
     center.x = tz_centerX;
@@ -105,7 +105,7 @@
 }
 
 
-- (void)settz_centerY:(CGFloat)tz_centerY
+- (void)setTz_centerY:(CGFloat)tz_centerY
 {
     CGPoint center = self.center;
     center.y = tz_centerY;
@@ -113,12 +113,12 @@
 }
 
 
-- (void)settz_right:(CGFloat)tz_right
+- (void)setTz_right:(CGFloat)tz_right
 {
     self.tz_x = tz_right - self.tz_width;
 }
 
-- (void)settz_bottom:(CGFloat)tz_bottom
+- (void)setTz_bottom:(CGFloat)tz_bottom
 {
     self.tz_y = tz_bottom - self.tz_height;
 }

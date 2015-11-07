@@ -22,11 +22,16 @@
 - (UIButton *)publishButton
 {
     if (_publishButton == nil) {
-        _publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_publishButton setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
-        [_publishButton setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
-        [_publishButton addTarget:self action:@selector(publishClick) forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:_publishButton];
+        
+        UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [publishButton setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
+        [publishButton setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        [publishButton addTarget:self action:@selector(publishClick) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:publishButton];
+        
+        _publishButton = publishButton;
+        
+        TZFUNC;
     }
     return _publishButton;
 }
@@ -53,7 +58,18 @@
     
     for (UIView *subview in self.subviews) {
         if (subview.class != NSClassFromString(@"UITabBarButton")) continue;
+        
+        CGFloat tabBarButtonX = taBarButtonIndex * buttonW;
+        if (taBarButtonIndex > 1) {
+            tabBarButtonX += buttonW;
+        }
+        subview.frame = CGRectMake(tabBarButtonX, tabBarButtonY, buttonW, buttonH);
+        
+        taBarButtonIndex++;
     }
+    
+    
+    self.publishButton.tzMakeWidth(buttonW).tzMakeHeight(buttonH).tzMakeCenterX(self.tz_width * 0.5).tzMakeCenterY(self.tz_height *  0.5);
 }
 
 #pragma mark - click

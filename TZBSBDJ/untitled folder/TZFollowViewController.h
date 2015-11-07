@@ -1,5 +1,5 @@
 //
-//  TZFriendTrendsViewController.h
+//  TZFollowViewController.h
 //  ZYH-百思不得姐001
 //
 //  Created by Tim.Z on 15/11/5.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TZFriendTrendsViewController : UIViewController
+@interface TZFollowViewController : UIViewController
 
 @end

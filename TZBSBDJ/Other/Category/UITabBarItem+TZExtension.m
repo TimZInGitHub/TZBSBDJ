@@ -11,21 +11,16 @@
 @implementation UITabBarItem (TZExtension)
 
 
-#pragma mark - lazyloading
-
-
-
-
-- (UITabBarItem *(^)(UIImage *))tzImage
+- (UITabBarItem *(^)(UIImage *))tzSelectedImage
 {
     return ^(UIImage *image){
         self.image = image;
-    
-    return self;
+        
+        return self;
     };
 }
 
-- (UITabBarItem *(^)(UIImage *))tzSelectedImage
+- (UITabBarItem *(^)(UIImage *))tzImage
 {
     return ^(UIImage *image){
         self.image = image;
@@ -42,7 +37,6 @@
         return self;
     };
 }
-
 
 
 @end

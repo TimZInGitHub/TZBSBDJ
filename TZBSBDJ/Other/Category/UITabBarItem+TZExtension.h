@@ -10,11 +10,8 @@
 
 @interface UITabBarItem (TZExtension)
 
-
-- (UITabBarItem *(^)(UIImage *))tzImage;
 - (UITabBarItem *(^)(UIImage *))tzSelectedImage;
+- (UITabBarItem *(^)(UIImage *))tzImage;
 - (UITabBarItem *(^)(NSString *))tzTitle;
-
-
 
 @end

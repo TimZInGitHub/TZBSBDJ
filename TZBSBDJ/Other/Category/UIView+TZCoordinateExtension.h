@@ -21,4 +21,11 @@
 @property (nonatomic, assign) CGFloat tz_right;
 @property (nonatomic, assign) CGFloat tz_bottom;
 
+- (UIView *(^)(CGFloat))tzMakeWidth;
+- (UIView *(^)(CGFloat))tzMakeHeight;
+- (UIView *(^)(CGFloat))tzMakeX;
+- (UIView *(^)(CGFloat))tzMakeY;
+- (UIView *(^)(CGFloat))tzMakeCenterX;
+- (UIView *(^)(CGFloat))tzMakeCenterY;
+
 @end
