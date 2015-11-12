@@ -10,9 +10,10 @@
 #import "UINavigationItem+TZExtension.h"
 #include "UIBarButtonItem+TZExtension.h"
 
+#import <objc/runtime.h>
 
 
-@implementation TZEssenceViewController
+@implementation TZEssenceViewController 
 
 - (void)viewDidLoad
 {

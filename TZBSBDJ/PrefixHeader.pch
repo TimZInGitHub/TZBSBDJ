@@ -19,6 +19,7 @@
 #import "UINavigationItem+TZExtension.h"
 #import "UITabBarItem+TZExtension.h"
 #import "UIView+TZCoordinateExtension.h"
+#import "UITextField+TZExtension.h"
 
 /*** 日志 ***/
 #ifdef DEBUG

@@ -14,7 +14,7 @@
 - (UITabBarItem *(^)(UIImage *))tzSelectedImage
 {
     return ^(UIImage *image){
-        self.image = image;
+        self.selectedImage = image;
         
         return self;
     };

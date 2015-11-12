@@ -13,10 +13,14 @@
 #import "TZMeViewController.h"
 #import "TZNavigationController.h"
 #import "TZTabBar.h"
+#import "TZLoginRegisterViewController.h"
 
 
-@interface TZMainTabBarController ()
 
+
+@interface TZMainTabBarController () <UITabBarControllerDelegate>
+
+@property (nonatomic, getter=isLoggedIn) BOOL loggedIn;
 
 @end
 
@@ -31,10 +35,21 @@
 {
     [super viewDidLoad];
     
+//    self.delegate = self;
+    
     [self setUpItemTitleAttributes];
     [self setUpChildViewController];
     [self setUpTabBar];
+#warning change
+    self.loggedIn = NO;
     
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+#warning 尽量不要把自己的代理设置成自己
+    self.delegate = self;
 }
 
 #pragma mark - setup
@@ -80,8 +95,30 @@
     TZNavigationController *meNC = [[TZNavigationController alloc] initWithRootViewController:meVC];
     meNC.tabBarItem.tzTitle(@"Me").tzImage([UIImage imageNamed:@"tabBar_me_icon"]).tzSelectedImage([UIImage imageNamed:@"tabBar_me_click_icon"]);
     [self addChildViewController:meNC];
+    
+    TZFUNC
 }
 
+#pragma mark - UITabBarControllerDelegate
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    
+    if (self.isLoggedIn == NO) {
+        if ([viewController.childViewControllers[0] isKindOfClass:[TZFollowViewController class]] || [viewController.childViewControllers[0] isKindOfClass:[TZMeViewController class]]) {
+            
+            NSLog(@"%lu",tabBarController.selectedIndex);
+            TZFUNC
+            TZLoginRegisterViewController *loginRVC = [[TZLoginRegisterViewController alloc] init];
+            loginRVC.delegate = self;
+            loginRVC.view.backgroundColor = TZCommonBackgroundColor;
+            [self presentViewController:loginRVC animated:YES completion:nil];
+#warning 注意先后顺序
+            [tabBarController setSelectedIndex:0];
+            }
+    }
+
+}
 
 
 
