@@ -105,7 +105,7 @@
 {
     
     if (self.isLoggedIn == NO) {
-        if ([viewController.childViewControllers[0] isKindOfClass:[TZFollowViewController class]] || [viewController.childViewControllers[0] isKindOfClass:[TZMeViewController class]]) {
+        if ([viewController.childViewControllers[0] isKindOfClass:[TZFollowViewController class]]) {
             
             NSLog(@"%lu",tabBarController.selectedIndex);
             TZFUNC
