@@ -20,6 +20,7 @@
 #import "UITabBarItem+TZExtension.h"
 #import "UIView+TZCoordinateExtension.h"
 #import "UITextField+TZExtension.h"
+#import "NSString+TZExtension.h"
 #import "TZConst.h"
 
 /*** 日志 ***/

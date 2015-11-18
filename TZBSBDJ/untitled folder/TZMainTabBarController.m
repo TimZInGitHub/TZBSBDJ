@@ -43,6 +43,7 @@
 #warning change
     self.loggedIn = NO;
     
+    [self setSelectedIndex:0];
 }
 
 - (void)viewDidAppear:(BOOL)animated

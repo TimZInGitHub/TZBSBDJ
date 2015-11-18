@@ -25,6 +25,16 @@
 		2283F6D81BEF8BEF00E326D2 /* TZLoginRegister2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283F6D61BEF8BEF00E326D2 /* TZLoginRegister2ViewController.m */; };
 		2283F6D91BEF8BEF00E326D2 /* TZLoginRegister2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2283F6D71BEF8BEF00E326D2 /* TZLoginRegister2ViewController.xib */; };
 		22952DC21BF4527300F50158 /* TZQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22952DC11BF4527300F50158 /* TZQuickLoginButton.m */; };
+		229BA0C61BFACC5700B10345 /* TZClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA0C51BFACC5700B10345 /* TZClearCacheCell.m */; };
+		229BA0C91BFAD0E800B10345 /* NSString+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA0C81BFAD0E800B10345 /* NSString+TZExtension.m */; };
+		229BA0CC1BFAEC1C00B10345 /* TZOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA0CB1BFAEC1C00B10345 /* TZOtherCell.m */; };
+		229BA0D01BFAECE000B10345 /* TZOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BA0CF1BFAECE000B10345 /* TZOtherCell.xib */; };
+		22C62A2F1BFC27B600F306D7 /* TZAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A2E1BFC27B600F306D7 /* TZAllViewController.m */; };
+		22C62A321BFC27CD00F306D7 /* TZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A311BFC27CD00F306D7 /* TZVideoViewController.m */; };
+		22C62A351BFC27E400F306D7 /* TZVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A341BFC27E400F306D7 /* TZVoiceViewController.m */; };
+		22C62A381BFC27F900F306D7 /* TZPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A371BFC27F900F306D7 /* TZPictureViewController.m */; };
+		22C62A3B1BFC280F00F306D7 /* TZWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A3A1BFC280F00F306D7 /* TZWordViewController.m */; };
+		22C62A3E1BFC28A500F306D7 /* TZTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62A3D1BFC28A500F306D7 /* TZTitleButton.m */; };
 		22C80BF41BF0B97100FA2F66 /* TZLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C80BF31BF0B97100FA2F66 /* TZLoginRegisterTextField.m */; };
 		22C80BF71BF0BDAD00FA2F66 /* UITextField+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C80BF61BF0BDAD00FA2F66 /* UITextField+TZExtension.m */; };
 		22D2FF981BEC680D00CFA50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2FF971BEC680D00CFA50D /* main.m */; };
@@ -93,6 +103,25 @@
 		2283F6D71BEF8BEF00E326D2 /* TZLoginRegister2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZLoginRegister2ViewController.xib; sourceTree = "<group>"; };
 		22952DC01BF4527300F50158 /* TZQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZQuickLoginButton.h; sourceTree = "<group>"; };
 		22952DC11BF4527300F50158 /* TZQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZQuickLoginButton.m; sourceTree = "<group>"; };
+		229BA0C41BFACC5700B10345 /* TZClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZClearCacheCell.h; sourceTree = "<group>"; };
+		229BA0C51BFACC5700B10345 /* TZClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZClearCacheCell.m; sourceTree = "<group>"; };
+		229BA0C71BFAD0E800B10345 /* NSString+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TZExtension.h"; sourceTree = "<group>"; };
+		229BA0C81BFAD0E800B10345 /* NSString+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TZExtension.m"; sourceTree = "<group>"; };
+		229BA0CA1BFAEC1C00B10345 /* TZOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZOtherCell.h; sourceTree = "<group>"; };
+		229BA0CB1BFAEC1C00B10345 /* TZOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZOtherCell.m; sourceTree = "<group>"; };
+		229BA0CF1BFAECE000B10345 /* TZOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZOtherCell.xib; sourceTree = "<group>"; };
+		22C62A2D1BFC27B600F306D7 /* TZAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAllViewController.h; sourceTree = "<group>"; };
+		22C62A2E1BFC27B600F306D7 /* TZAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAllViewController.m; sourceTree = "<group>"; };
+		22C62A301BFC27CD00F306D7 /* TZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoViewController.h; sourceTree = "<group>"; };
+		22C62A311BFC27CD00F306D7 /* TZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoViewController.m; sourceTree = "<group>"; };
+		22C62A331BFC27E400F306D7 /* TZVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVoiceViewController.h; sourceTree = "<group>"; };
+		22C62A341BFC27E400F306D7 /* TZVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVoiceViewController.m; sourceTree = "<group>"; };
+		22C62A361BFC27F900F306D7 /* TZPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPictureViewController.h; sourceTree = "<group>"; };
+		22C62A371BFC27F900F306D7 /* TZPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPictureViewController.m; sourceTree = "<group>"; };
+		22C62A391BFC280F00F306D7 /* TZWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZWordViewController.h; sourceTree = "<group>"; };
+		22C62A3A1BFC280F00F306D7 /* TZWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZWordViewController.m; sourceTree = "<group>"; };
+		22C62A3C1BFC28A500F306D7 /* TZTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTitleButton.h; sourceTree = "<group>"; };
+		22C62A3D1BFC28A500F306D7 /* TZTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTitleButton.m; sourceTree = "<group>"; };
 		22C80BF21BF0B97100FA2F66 /* TZLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLoginRegisterTextField.h; sourceTree = "<group>"; };
 		22C80BF31BF0B97100FA2F66 /* TZLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLoginRegisterTextField.m; sourceTree = "<group>"; };
 		22C80BF51BF0BDAD00FA2F66 /* UITextField+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TZExtension.h"; sourceTree = "<group>"; };
@@ -174,6 +203,16 @@
 			children = (
 				22D2FFD21BEC68B600CFA50D /* TZEssenceViewController.h */,
 				22D2FFD31BEC68B600CFA50D /* TZEssenceViewController.m */,
+				22C62A2D1BFC27B600F306D7 /* TZAllViewController.h */,
+				22C62A2E1BFC27B600F306D7 /* TZAllViewController.m */,
+				22C62A301BFC27CD00F306D7 /* TZVideoViewController.h */,
+				22C62A311BFC27CD00F306D7 /* TZVideoViewController.m */,
+				22C62A331BFC27E400F306D7 /* TZVoiceViewController.h */,
+				22C62A341BFC27E400F306D7 /* TZVoiceViewController.m */,
+				22C62A361BFC27F900F306D7 /* TZPictureViewController.h */,
+				22C62A371BFC27F900F306D7 /* TZPictureViewController.m */,
+				22C62A391BFC280F00F306D7 /* TZWordViewController.h */,
+				22C62A3A1BFC280F00F306D7 /* TZWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +227,8 @@
 		2220B9C01BEC890A00BAB33E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				22C62A3C1BFC28A500F306D7 /* TZTitleButton.h */,
+				22C62A3D1BFC28A500F306D7 /* TZTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +272,11 @@
 				2216DA401BF8A82F004450B0 /* TZMeSquareButton.m */,
 				2273B6471BF8CD300044F3B8 /* TZMeTableViewCell.h */,
 				2273B6481BF8CD300044F3B8 /* TZMeTableViewCell.m */,
+				229BA0C41BFACC5700B10345 /* TZClearCacheCell.h */,
+				229BA0C51BFACC5700B10345 /* TZClearCacheCell.m */,
+				229BA0CA1BFAEC1C00B10345 /* TZOtherCell.h */,
+				229BA0CB1BFAEC1C00B10345 /* TZOtherCell.m */,
+				229BA0CF1BFAECE000B10345 /* TZOtherCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +338,8 @@
 				221A09731BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m */,
 				22C80BF51BF0BDAD00FA2F66 /* UITextField+TZExtension.h */,
 				22C80BF61BF0BDAD00FA2F66 /* UITextField+TZExtension.m */,
+				229BA0C71BFAD0E800B10345 /* NSString+TZExtension.h */,
+				229BA0C81BFAD0E800B10345 /* NSString+TZExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -571,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2283F6D91BEF8BEF00E326D2 /* TZLoginRegister2ViewController.xib in Resources */,
+				229BA0D01BFAECE000B10345 /* TZOtherCell.xib in Resources */,
 				22D2FFA61BEC680D00CFA50D /* LaunchScreen.storyboard in Resources */,
 				22D2FFA31BEC680D00CFA50D /* Assets.xcassets in Resources */,
 				225A6F7E1BEF6177006A9D73 /* TZLoginRegisterViewController.xib in Resources */,
@@ -646,9 +695,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229BA0CC1BFAEC1C00B10345 /* TZOtherCell.m in Sources */,
 				2283F6D81BEF8BEF00E326D2 /* TZLoginRegister2ViewController.m in Sources */,
+				22C62A2F1BFC27B600F306D7 /* TZAllViewController.m in Sources */,
 				2216DA381BF8A13A004450B0 /* TZConst.m in Sources */,
 				2216DA411BF8A82F004450B0 /* TZMeSquareButton.m in Sources */,
+				229BA0C91BFAD0E800B10345 /* NSString+TZExtension.m in Sources */,
+				22C62A321BFC27CD00F306D7 /* TZVideoViewController.m in Sources */,
 				221A09711BED9CBB007853D6 /* UINavigationItem+TZExtension.m in Sources */,
 				2220B9DE1BEC90B300BAB33E /* UITabBarItem+TZExtension.m in Sources */,
 				2220B9E41BECC57000BAB33E /* TZTabBar.m in Sources */,
@@ -656,6 +709,7 @@
 				221A09791BEDC4BC007853D6 /* TZRecommendFollowViewController.m in Sources */,
 				22C80BF41BF0B97100FA2F66 /* TZLoginRegisterTextField.m in Sources */,
 				22952DC21BF4527300F50158 /* TZQuickLoginButton.m in Sources */,
+				22C62A351BFC27E400F306D7 /* TZVoiceViewController.m in Sources */,
 				225A6F7D1BEF6177006A9D73 /* TZLoginRegisterViewController.m in Sources */,
 				221A097C1BEDC990007853D6 /* TZSettingViewController.m in Sources */,
 				2220B9DB1BEC8C7E00BAB33E /* UIView+TZCoordinateExtension.m in Sources */,
@@ -666,10 +720,14 @@
 				2220B9E11BECC39A00BAB33E /* TZNavigationController.m in Sources */,
 				22D2FF981BEC680D00CFA50D /* main.m in Sources */,
 				2216DA3E1BF8A781004450B0 /* TZMeSquare.m in Sources */,
+				229BA0C61BFACC5700B10345 /* TZClearCacheCell.m in Sources */,
 				22C80BF71BF0BDAD00FA2F66 /* UITextField+TZExtension.m in Sources */,
 				2273B6491BF8CD300044F3B8 /* TZMeTableViewCell.m in Sources */,
 				22D2FFE31BEC68B600CFA50D /* TZNewViewController.m in Sources */,
+				22C62A3B1BFC280F00F306D7 /* TZWordViewController.m in Sources */,
+				22C62A381BFC27F900F306D7 /* TZPictureViewController.m in Sources */,
 				2216DA3B1BF8A583004450B0 /* TZMeFootView.m in Sources */,
+				22C62A3E1BFC28A500F306D7 /* TZTitleButton.m in Sources */,
 				221A09741BEDA0DF007853D6 /* UIBarButtonItem+TZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -805,7 +863,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TZBSBDJ/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods\"";
 				INFOPLIST_FILE = TZBSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;
@@ -820,7 +880,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TZBSBDJ/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods\"";
 				INFOPLIST_FILE = TZBSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimZInGitHub.TZBSBDJ;

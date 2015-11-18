@@ -25,7 +25,7 @@
         params[@"c"] = @"topic";
         
         [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
-            
+        
             NSArray *squares = [TZMeSquare mj_objectArrayWithKeyValuesArray:responseObject[@"square_list"]];
             [self createSquares:squares];
         
@@ -71,9 +71,22 @@
     TZFUNC
     NSString *url = button.square.url;
     
-    SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:url]];
-    UITabBarController *tabBarVC = (UITabBarController *)self.window.rootViewController;
-    [tabBarVC presentViewController:webView animated:YES completion:nil];
+    if ([url hasPrefix:@"http"]) {
+        
+        SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:url]];
+        UITabBarController *tabBarVC = (UITabBarController *)self.window.rootViewController;
+        [tabBarVC presentViewController:webView animated:YES completion:nil];
+    }else if ([url hasPrefix:@"mod"]){
+        if ([url hasSuffix:@"BDJ_To_Check"]) {
+            TZLog(@"跳转到[审帖]界面");
+        } else if ([url hasSuffix:@"BDJ_To_RecentHot"]) {
+            TZLog(@"跳转到[每日排行]界面");
+        } else {
+            TZLog(@"跳转到其他界面");
+        }
+    } else {
+        TZLog(@"不是http或者mod协议的");
+    }
 }
 
 

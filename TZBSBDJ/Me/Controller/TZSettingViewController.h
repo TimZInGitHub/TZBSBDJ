@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TZSettingViewController : UIViewController
+@interface TZSettingViewController : UITableViewController
 
 @end
